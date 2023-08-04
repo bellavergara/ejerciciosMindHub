@@ -53,9 +53,9 @@ calcularPrecio(100, 20);
 
 /* 5 Crea una función llamada "esMayorDeEdad" que reciba un parámetro numérico que represente la edad de una persona, 
 y devuelva un mensaje que indique si la persona es mayor de edad o no. Si la edad es mayor o igual a 18, el mensaje debe decir "Eres mayor de edad". Si la edad es menor a 18, el mensaje debe decir "Eres menor de edad".
- Utiliza el operador ternario para implementar esta función. Llama a la función con diferentes valores de edad para verificar que funcione correctamente.*/
+Utiliza el operador ternario para implementar esta función. Llama a la función con diferentes valores de edad para verificar que funcione correctamente.*/
 
- function esMayorDeEdad(edad){
+function esMayorDeEdad(edad){
   if( edad>=18){ 
     console.log("eres mayorcito de edad");
   }
@@ -66,10 +66,10 @@ y devuelva un mensaje que indique si la persona es mayor de edad o no. Si la eda
   }
   esMayorDeEdad(16);
 
- 
-  /*6Crea una función llamada "calcularImpuesto" que tome un parámetro numérico que represente el ingreso anual de una persona, y devuelva el impuesto que debe pagar. 
+
+/*6Crea una función llamada "calcularImpuesto" que tome un parámetro numérico que represente el ingreso anual de una persona, y devuelva el impuesto que debe pagar. 
   Si el ingreso es menor o igual a $10,000, el impuesto es del 10% del ingreso. Si el ingreso es mayor a $10,000 pero menor o igual a $20,000, el impuesto es del 15% del ingreso.
-   Si el ingreso es mayor a $20,000, el impuesto es del 20% del ingreso. Utiliza condicionales anidados para implementar esta función. Llama a la función con diferentes valores de ingreso para verificar que funcione correctamente.*/
+  Si el ingreso es mayor a $20,000, el impuesto es del 20% del ingreso. Utiliza condicionales anidados para implementar esta función. Llama a la función con diferentes valores de ingreso para verificar que funcione correctamente.*/
 
   function calcularInpuesto(ingresoAnual){
     let inpuesto = 0;
