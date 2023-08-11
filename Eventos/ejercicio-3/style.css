@@ -1,0 +1,23 @@
+h2{
+        color :maroon;
+}
+
+.form1,.form2{
+text-align: center;
+width: 100%;
+max-width: 600px;
+}
+
+.form2{
+margin-top: 2rem;
+}
+.boton{
+text-align: center;
+width: 100%;
+max-width: 600px;
+margin-top: 2rem;  
+}
+
+.resultado{
+text-align: center;
+}
